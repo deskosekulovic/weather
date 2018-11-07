@@ -38,7 +38,7 @@ class App extends Component {
         .trim()
         .replace(',', '')
         .toLowerCase();
-      const url = `http://api.openweathermap.org/data/2.5/weather?appid=c3b8f2e28ea9bf6f5d8bcb678001ab74&units=metric&q=${city}`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?appid=c3b8f2e28ea9bf6f5d8bcb678001ab74&units=metric&q=${city}`;
       if (city.length === 0) {
         this.setErrorMessage(MESSAGE.ENTER_CITY);
         return;
