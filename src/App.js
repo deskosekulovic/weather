@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { injectGlobal } from 'styled-components';
+import { ThemeProvider, injectGlobal } from 'styled-components';
 import List from './components/List.jsx';
 import Header from './components/Header.jsx';
 import MESSAGE from './utility/constants';
-import { ThemeProvider } from 'styled-components';
 
 const theme = {
   backgroundButton: '#A0ACB8',
